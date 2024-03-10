@@ -1,3 +1,5 @@
+# Костя Зеновский, 14-я когорта — Финальный проект. Инженер по тестированию плюс
+
 import data
 import sender_stand_request
 
@@ -15,4 +17,3 @@ def test_get_order_by_track():
     order_data = response_order_by_track.json()
     print("Заказ:")
     print(order_data)
-
